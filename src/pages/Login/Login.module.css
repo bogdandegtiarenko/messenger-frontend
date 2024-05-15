@@ -1,0 +1,59 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.loginContainer {
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  border: 2px;
+  border: solid #d4d4d4;
+}
+.loginTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.inputLabel {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginButton,
+.registerButton {
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.loginButton {
+  background-color: #8eaccd;
+  color: black;
+}
+.registerButton {
+  background-color: #b8eb91;
+  color: rgb(0, 0, 0);
+}

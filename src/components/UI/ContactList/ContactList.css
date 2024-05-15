@@ -1,0 +1,17 @@
+﻿.chatlist{
+    position: relative;
+    height: calc(100% - 110px);
+    overflow-y: auto;
+}
+
+.chatlist::-webkit-scrollbar {
+    background-color: #ebebeb;
+    width: 8px;
+
+}
+
+
+.chatlist::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 100px 100px 100px 100px;
+}

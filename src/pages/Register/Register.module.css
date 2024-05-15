@@ -1,0 +1,117 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.registrationContainer {
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #d4d4d4;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.registrationTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.inputLabel {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.avatarUpload {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.avatarLabel {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.avatarInput::file-selector-button {
+  padding: 5px 10px;
+  background-color: #8eaccd;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.avatarFilename {
+  margin-top: 5px;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+}
+.passwordLabel {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.passwordField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.registerButton {
+  padding: 10px 35px;
+  background-color: #b8eb91;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.backButton {
+  background-color: #ccc;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-left: 10px;
+}
+
+.registrationContainer .avatar{
+  overflow: hidden;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin-left: 37%;
+  margin-bottom: 2px;
+  margin-top: 3px;
+}
+
+.registrationContainer .avatar .img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.test{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}

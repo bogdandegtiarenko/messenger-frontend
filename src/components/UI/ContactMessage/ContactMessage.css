@@ -1,0 +1,7 @@
+﻿.message.frnd_message{
+    justify-content: flex-start;
+}
+
+.message.frnd_message p{
+    background: #fff;
+}

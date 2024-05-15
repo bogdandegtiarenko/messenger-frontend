@@ -1,0 +1,43 @@
+﻿
+.imgText{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgText h4{
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 15px;
+}
+
+.imgText h4 span{
+    font-size: 0.8em;
+}
+
+.onlineContactStatus{
+    color: rgb(0, 143, 199);
+}
+
+.offlineContactStatus{
+    color: rgb(90, 102, 106);
+}
+
+.userimg{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.cover{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

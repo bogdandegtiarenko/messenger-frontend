@@ -1,0 +1,38 @@
+﻿
+.contactMenuContainer .mainTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.contactMenuContainer .contactAvatar{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.contactMenuContainer .contactAvatar .img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contactMenuContainer .infoTitle{
+    font-size: 19px;
+    color: #8a8a8a;
+}
+
+.contactMenuContainer .infoTitle div{
+    display: inline;
+    font-size: 19px;
+    margin-left: 10px;
+    color: #525252;
+}
+
