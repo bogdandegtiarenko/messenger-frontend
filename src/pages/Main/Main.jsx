@@ -51,7 +51,7 @@ const Main = () => {
 
     const [hubConnection, setConnection] = useState(
         new HubConnectionBuilder()
-            .withUrl(`${process.env.REACT_APP_BACKEND_URL}/connection`)
+            .withUrl(`${process.env.REACT_APP_BACKEND_URL}/chat`)
             .build()
     );
 
